@@ -44,4 +44,22 @@ public class HighArray {
         return true;
     }
 
+    /**
+     * Метод, возвращающий максимальное значение
+     * @return максимальное значение, либо -1 если массив пуст
+     */
+    public long getMax() {
+        if (numberElems == 0) { // if array is empty
+            return -1;
+        }
+        long maxElem  = Long.MIN_VALUE;
+        for (long currentElement : arr) {
+            if (maxElem < currentElement) {
+                maxElem = currentElement;
+            }
+        }
+
+        return maxElem;
+    }
+
 }
