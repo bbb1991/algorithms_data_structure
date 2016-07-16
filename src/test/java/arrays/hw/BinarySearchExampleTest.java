@@ -1,12 +1,9 @@
 package arrays.hw;
 
+import ch2_arrays.hw.BinarySearchExample;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.Random;
-
-import static org.junit.Assert.*;
 
 public class BinarySearchExampleTest {
 

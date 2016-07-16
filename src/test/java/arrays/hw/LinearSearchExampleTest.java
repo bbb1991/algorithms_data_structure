@@ -1,10 +1,9 @@
 package arrays.hw;
 
+import ch2_arrays.hw.LinearSearchExample;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by bbb1991 on 7/13/16.

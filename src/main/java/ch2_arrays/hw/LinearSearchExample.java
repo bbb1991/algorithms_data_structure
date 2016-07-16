@@ -1,4 +1,4 @@
-package arrays.hw;
+package ch2_arrays.hw;
 
 import java.util.Objects;
 
