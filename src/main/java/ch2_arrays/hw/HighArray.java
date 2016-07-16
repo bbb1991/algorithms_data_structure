@@ -62,4 +62,15 @@ public class HighArray {
         return maxElem;
     }
 
+    public boolean removeMax() {
+        long maxElem = getMax();
+
+        if (maxElem == -1) {
+            return false;
+        }
+
+        delete(maxElem);
+        return true;
+    }
+
 }
